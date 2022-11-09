@@ -54,6 +54,11 @@ img {
 .checkout{
     margin-top: 10px;
 }
+.checkout h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px 0;
+}
 .customers {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -65,7 +70,14 @@ img {
 .customers th {
     border: 1px solid #ddd;
     padding: 8px;
-    width: 9rem;
+    /* width: 9rem; */
+}
+.customers input[type="number"]{
+    width: 3rem;
+}
+.customers textarea{
+    border: 1px solid#000;
+    border-radius: 5px;
 }
 .ttsp{
     display: flex;
